@@ -1,0 +1,18 @@
+jquery.validate:
+  version: 1.4.4
+  js:
+    https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js: { type: external, minified: true }
+    https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js: { type: external, minified: true }
+  css:
+    component:
+      https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css: { type: external, minified: true }
+
+mylibrary:
+  version: 1.4.4
+  js:
+    js/scripts.js: {}
+  css:
+    component:
+      css/mystyle.css: {}
+
+

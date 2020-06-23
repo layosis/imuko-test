@@ -1,0 +1,12 @@
+custom_module.myusers_form_new:
+  path: '/myusers/new'
+  defaults:
+    _form: '\Drupal\custom_module\Form\MyusersFormNew'
+    _title: 'MyusersFormNew'
+  requirements:
+    _permission: 'new_user_imuko'
+
+custom_module.myusers_list:
+  path: '/lista-de-usuarios-imuko'
+  requirements:
+    _permission: 'list_users_imuko'

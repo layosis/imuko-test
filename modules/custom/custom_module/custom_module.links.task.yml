@@ -1,0 +1,42 @@
+# My Users routing definition
+myusers.settings_tab:
+  route_name: myusers.settings
+  title: 'Settings'
+  base_route: myusers.settings
+
+entity.myusers.canonical:
+  route_name: entity.myusers.canonical
+  base_route: entity.myusers.canonical
+  title: 'View'
+
+entity.myusers.edit_form:
+  route_name: entity.myusers.edit_form
+  base_route: entity.myusers.canonical
+  title: 'Edit'
+
+entity.myusers.delete_form:
+  route_name:  entity.myusers.delete_form
+  base_route:  entity.myusers.canonical
+  title: Delete
+  weight: 10
+# Log imuko routing definition
+log_imuko.settings_tab:
+  route_name: log_imuko.settings
+  title: 'Settings'
+  base_route: log_imuko.settings
+
+entity.log_imuko.canonical:
+  route_name: entity.log_imuko.canonical
+  base_route: entity.log_imuko.canonical
+  title: 'View'
+
+entity.log_imuko.edit_form:
+  route_name: entity.log_imuko.edit_form
+  base_route: entity.log_imuko.canonical
+  title: 'Edit'
+
+entity.log_imuko.delete_form:
+  route_name:  entity.log_imuko.delete_form
+  base_route:  entity.log_imuko.canonical
+  title: Delete
+  weight: 10

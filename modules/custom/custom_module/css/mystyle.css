@@ -1,0 +1,56 @@
+
+#conten-user-control input {
+    width: 1px;
+    height: 0px;
+    overflow: hidden;
+    position: absolute;
+    top: -2000px;
+}
+#conten-user-control label {
+    display: none;
+    margin-top: -10px;
+
+}
+
+form label.error {
+    color:red;
+    display: block;;
+}
+
+/**  Menu imuko */
+nav#block-imukomenu {
+    display: block;
+    width: 100%;
+}
+#block-imukomenu ul.clearfix.menu {
+    display: flex;
+}
+
+#block-imukomenu li.menu-item:hover {
+    margin: 0 5px;
+    background: var(--blue);
+    border: none;
+}
+
+
+#block-imukomenu li.menu-item {
+    margin: 0 5px;
+    background: #f1f0f0;
+    border: none;
+}
+
+#block-imukomenu li.menu-item--active-trail {
+    background: var(--blue);
+}
+
+
+#block-imukomenu li.menu-item a {
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+#block-imukomenu li.menu-item:hover a,
+#block-imukomenu li.menu-item--active-trail a {
+    color: #FFF;
+}

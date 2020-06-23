@@ -1,0 +1,7 @@
+langcode: es
+status: true
+dependencies: {}
+id: imuko-menu
+label: 'imuko Menu'
+description: 'imuko Menu'
+locked: false

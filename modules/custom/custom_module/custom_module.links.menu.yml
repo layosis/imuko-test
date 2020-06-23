@@ -1,0 +1,15 @@
+imuko_menu.menu-consulta:
+  route_name: 'custom_module.myusers_list'
+  title: 'Consulta'
+  description: 'Register new user'
+  menu_name: imuko-menu
+  expanded: TRUE
+  weight: 1
+
+imuko_menu.menu-register:
+  route_name: 'custom_module.myusers_form_new'
+  title: 'Registro'
+  description: 'Register new user'
+  menu_name: imuko-menu
+  expanded: TRUE
+  weight: 2

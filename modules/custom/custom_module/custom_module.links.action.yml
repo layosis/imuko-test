@@ -1,0 +1,11 @@
+entity.myusers.add_form:
+  route_name: entity.myusers.add_form
+  title: 'Add My Users'
+  appears_on:
+    - entity.myusers.collection
+
+entity.log_imuko.add_form:
+  route_name: entity.log_imuko.add_form
+  title: 'Add Log imuko'
+  appears_on:
+    - entity.log_imuko.collection

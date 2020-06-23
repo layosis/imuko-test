@@ -1,0 +1,12 @@
+
+## Permisos para el usuario imuko
+new_user_imuko:
+  title: 'Imuko - Registro de usuario'
+
+list_users_imuko:
+  title: 'Imuko - Consulta de usuarios'
+
+import_imuko:
+  title: 'Imuko - Importaciones'
+
+
